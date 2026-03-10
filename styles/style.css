@@ -1,0 +1,179 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+h1{
+  font-family: Delius;
+  font-size: 48px;
+  color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px 10px;
+  margin: 15px;
+  width: fit-content;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.container{
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 15px;
+  box-shadow: 10px 5px #282224;
+}
+
+header .container{
+  background-image: linear-gradient(rgb(138, 13, 100), rgb(220, 181, 195));
+  background-size: contain;
+  height: 200px;
+}
+
+h2{
+  font-family: Delius;
+  font-size: 2rem;
+}
+
+body{
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+footer{ 
+  background-image: linear-gradient(rgb(220, 181, 195), rgb(138, 13, 100));;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 5px gray;
+  margin: 15px;
+}
+
+footer p{
+  font-style: italic;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: 250px;
+  height: auto;
+}
+
+a{
+  font-family: Delius;
+  color: black;
+  background-color: ghostwhite;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 2px black;
+  box-shadow: 5px 5px gray;
+  transition: background-color 250ms ease-out;
+  text-decoration: none;
+}
+
+a:hover{
+  color: purple;
+  background-color: lightgray;
+}
+
+.product{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: hsla(341, 57%, 77%, 0.5);
+  gap: 20px;
+}
+
+.product h2{
+  text-align: center;
+}
+
+.box {
+  font-family: Bitcount Prop Double Ink;
+  background-color: hsla(0, 100%, 95%, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 2px black;
+  box-shadow: 6px 6px 3px gray;
+  text-decoration: none;
+  transition: background-color 250ms ease-out;
+  height: 150px;
+  max-width: 150px;
+  min-width: 100px;
+  color: black;
+}
+
+.box .description{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 0.5rem;
+}
+
+.box .rating{
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.box:hover, .submit_button:hover{
+  background-color: hsl(0, 2%, 23%);
+  color: white;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  background-color: hsla(341, 57%, 77%, 0.5);
+
+}
+
+form{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+label{
+  display: block;
+}
+
+input{
+  background-color: ghostwhite;
+}
+
+input:focus-visible, textarea:focus-visible, a:focus-visible{
+  outline: 3px solid blue;
+}
+
+.submit_button{
+  width: 100px;
+  height: 50px;
+  color: black;
+  border-radius: 10px;
+}
+
+
+
